@@ -25,9 +25,7 @@ p {
   margin-bottom: 0;
 }
 
-strong {
-  background: yellow;
+span {
+  background-color: yellow;
   color: black;
-  padding-right: 100px;
 }
-
