@@ -46,3 +46,11 @@ a:focus{
 a:active{
   color: plum;
 }
+
+.button {
+  display: inline-block;
+  margin-right: 25px;
+  padding: 20px;
+  background-color: #ffe600;
+  color: black;
+}
