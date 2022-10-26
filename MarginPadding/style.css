@@ -53,4 +53,6 @@ a:active{
   padding: 20px;
   background-color: #ffe600;
   color: black;
+  text-decoration: none;
+  font-weight: bold;
 }
