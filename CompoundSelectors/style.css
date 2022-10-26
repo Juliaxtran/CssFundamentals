@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 
@@ -34,29 +35,20 @@ header {
   color: white;
 }
 
-.section-one .btn {
-  background-color: #FFE600;
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.btn-accent{
   color: black;
-  display: inline-block;
-  padding: 10px 20px;
-  text-decoration: none;
-  font-weight: bold;
+  background-color: #FFE600;
 }
 
-.section-one .btn:hover{
-  background: white;
-}
-
-.section-two .btn{
+.btn-dark{
+  color: #FFE600;
   background-color: black;
-  color: white;
-  display: inline-block;
-  padding: 10px 20px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.section-two .btn:hover{
-  background: yellow;
-  color:black
 }
