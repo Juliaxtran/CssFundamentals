@@ -1,13 +1,9 @@
-* {
-  box-sizing: border-box;
-}
-
 .card {
   background: #000;
   color: white;
   width: 560px;
-  height: 50%;
   margin: 0 auto;
+  padding: 50px 50px;
 }
 
 h1 {
