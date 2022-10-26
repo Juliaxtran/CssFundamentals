@@ -48,7 +48,17 @@ header {
   background-color: #FFE600;
 }
 
+.btn-accent:hover{
+  color: white;
+  background-color: black;
+}
+
 .btn-dark{
   color: #FFE600;
   background-color: black;
+}
+
+.btn-dark:hover{
+  color: black;
+  background-color: yellow;
 }
