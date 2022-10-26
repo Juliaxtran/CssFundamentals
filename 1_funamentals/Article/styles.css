@@ -4,12 +4,16 @@
 }
 
 body {
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Lato', sans-serif;
   color: #2e354f;
   margin: 0;
 }
 
+
+ul {
+  font-size: 1.5em;
+}
 /* Typography */
 
 h1,
@@ -19,12 +23,12 @@ strong {
 }
 
 h1 {
-  font: 36px;
+  font: 3em;
   margin: 0;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 2em;
   color: #ef5839;
 }
 
@@ -93,3 +97,4 @@ section {
   background: #2e354f;
   color: #fff;
 }
+
