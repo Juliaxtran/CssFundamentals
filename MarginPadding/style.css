@@ -26,6 +26,23 @@ p {
 }
 
 span {
-  background-color: yellow;
-  color: black;
+ color: yellow;
+}
+
+a {
+  color: #FFE600;
+}
+
+a:hover{
+  color: red;
+}
+
+a:focus{
+  color: blue;
+}
+
+
+
+a:active{
+  color: plum;
 }
