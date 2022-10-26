@@ -1,4 +1,3 @@
-
 body {
   font-size: 1.125rem;
   color: #707070;
@@ -13,15 +12,24 @@ h1 {
   text-align: center;
 }
 
+h1 span {
+  color: #b7832f;
+}
+
 h2 {
   font-size: 1.5rem;
 }
 
-span {
-  color: #b7832f;
+p {
+  margin-top: 0;
 }
 
-/* Layout */
+
+/*  Layout  */
+
+img {
+  max-width: 100%;
+}
 
 .container {
   width: 95%;
@@ -31,10 +39,24 @@ span {
 
 .columns {
   display: flex;
+  justify-content: space-between;
+  margin: 1em 0;
 }
 
-img {
-  width: 100%;
-  height: 30vh;
+.col-1 {
+  width: 20%;
 }
 
+.col-2 {
+  width: 45%;
+}
+
+.col-3 {
+  width: 70%;
+}
+
+.col-bg {
+  background: #212614;
+  color: #fff;
+  padding: 1em;
+}
