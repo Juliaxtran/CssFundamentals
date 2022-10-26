@@ -60,7 +60,8 @@ a:focus {
   color: #2e354f;
 }
 
-.btn-white:hover {
+.btn-white:hover {  width: 620px;
+  margin: 0 auto;
   color: #2e354f;
   background: #999;
 }
