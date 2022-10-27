@@ -2,7 +2,10 @@ body {
   font-size: 1.125rem;
   color: #707070;
   margin: 0;
+  background: pink;
 }
+
+
 
 /* Typography */
 
@@ -28,7 +31,7 @@ p {
 /*  Layout  */
 
 img {
-  max-width: 100%;
+width: 100%;
 }
 
 .container {
