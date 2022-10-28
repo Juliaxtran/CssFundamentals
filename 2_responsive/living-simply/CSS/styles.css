@@ -72,6 +72,7 @@ strong {
   font-size: .75rem;
   margin: 0;
   text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
 
 .article-title {
@@ -81,13 +82,14 @@ strong {
 .article-read-more,
 .article-info {
   font-size: .875rem;
-  text-transform: uppercase;
 }
 
 .article-read-more {
   color: #1792d2;
   text-decoration: none;
   font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .article-read-more:hover,
@@ -108,6 +110,7 @@ strong {
   font-size: 1rem;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
+  letter-spacing: 2px;
 }
 
 /* =================
@@ -166,6 +169,8 @@ nav a {
   color: #707070;
   font-weight: 700;
   padding: .25em 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 nav a:hover,
