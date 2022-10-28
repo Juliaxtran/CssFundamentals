@@ -9,6 +9,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.125rem;
   color: #404040;
+  text-align: center;
 }
 
 h1 {
@@ -16,6 +17,33 @@ h1 {
   font-weight: 300;
 }
 
-strong {
-  font-weight: 600;
+/* p righht after h1 */
+h1 + p {
+  color: #f18119;
+  font-weight: 900;
+  font-size: 1.3125rem;
+  text-transform: uppercase;
 }
+
+
+h2 {
+  font-size: 1.3125rem;
+}
+
+.top-text {
+  font-size: 0.625rem;
+  font-weight: 900;
+  color: #f18119;
+  text-transform: uppercase;
+}
+
+.fine-print {
+  font-size: 0.625rem;
+  letter-spacing: 1px;
+}
+
+
+strong {
+  font-weight: 900;
+}
+
