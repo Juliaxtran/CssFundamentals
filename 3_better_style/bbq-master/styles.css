@@ -96,6 +96,16 @@ strong {
  margin-right: auto;
 } */
 
+/* Form  */
+
+.email-form {
+  width: 90%;
+}
+
+input,
+.btn {
+  width: 100%;
+}
 
 /* Media  queries */
 
