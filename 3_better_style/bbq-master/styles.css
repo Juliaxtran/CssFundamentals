@@ -63,6 +63,7 @@ strong {
 
 .intro {
   background-color: #808080;
+  background-position: center;
   background-image: url(./bbq.jpg);
   background-blend-mode: multiply;
   background-size: cover;
@@ -100,12 +101,12 @@ strong {
    h1 + p{
     font-size: 1.75rem;
    }
-   
-   .intro {
+
+  .intro,
+  .main-content {
     width: 50%;
     height: 100vh;
-   }
-   .main-content{
-    width: 50%;
-   }
+  }
+
+
 }
