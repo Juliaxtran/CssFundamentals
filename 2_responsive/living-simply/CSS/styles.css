@@ -4,6 +4,7 @@ font-family: 'Lora', serif;
 font-family: 'Ubuntu', sans-serif;
 */
 
+/* Globals */
 body {
   margin: 0;
   font-family: 'Ubuntu', sans-serif;
@@ -11,6 +12,10 @@ body {
   font-weight: 300;
 }
 
+img {
+max-width: 100%;
+display: block;
+}
 /* =================
 Typography
 ================= */
@@ -81,7 +86,7 @@ Layout
   margin: 0 auto;
 }
 
-.container-nav {
+.container-flex {
   display: flex;
   justify-content: space-between;
 }
@@ -92,7 +97,7 @@ header {
 }
 
 @media (max-width: 675px) {
-  .container-nav {
+  .container-flex {
       flex-direction: column;
   }
 
@@ -101,6 +106,13 @@ header {
   }
 }
 
+main {
+ width: 75%;
+}
+
+aside {
+  width: 20%;
+}
 /* navigation */
 
 nav ul {
