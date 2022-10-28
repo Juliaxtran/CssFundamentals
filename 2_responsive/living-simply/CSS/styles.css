@@ -17,6 +17,13 @@ max-width: 100%;
 display: block;
 }
 
+.image-full {
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 2em;
+}
+
 footer {
   background: #143774;
   text-align: center;
@@ -39,6 +46,10 @@ h3 {
 h1 {
   font-size: 2rem;
   margin: 0;
+}
+
+h3 {
+  color: #1792d2;
 }
 
 a {
@@ -244,6 +255,11 @@ nav a:focus {
   padding: .75em;
   border: 20px solid #efefef;
 }
+
+.widget-recent-post-title{
+  color: #143774;
+}
+
 
 .widget-recent-post {
   display: flex;
