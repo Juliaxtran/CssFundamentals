@@ -10,7 +10,7 @@ body {
   font-family: 'Ubuntu', sans-serif;
   font-size: 1.125rem;
   font-weight: 300;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 img {
@@ -71,6 +71,7 @@ strong {
   color: #1792d2;
   font-size: .75rem;
   margin: 0;
+  text-transform: uppercase;
 }
 
 .article-title {
@@ -80,6 +81,7 @@ strong {
 .article-read-more,
 .article-info {
   font-size: .875rem;
+  text-transform: uppercase;
 }
 
 .article-read-more {
@@ -100,6 +102,7 @@ strong {
 .widget-title,
 .widget-recent-post-title{
   font-size: 1rem;
+  line-height: 1.4;
 }
 .widget-title {
   font-size: 1rem;
