@@ -28,7 +28,7 @@ display: block;
 footer {
   background: #143774;
   text-align: center;
-  color: white;
+  color: rgb(225, 225, 225, .5);
   padding:3em 0;
 }
 /* =================
