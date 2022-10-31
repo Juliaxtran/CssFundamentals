@@ -10,18 +10,16 @@ body {
 .flex-container {
     border: 10px solid #F9F871;
     max-width: 700px;
-    min-height: 50vh;
     margin: 0 auto;
     padding: .25em;
     display: flex;
-    justify-content: space-around;
-    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-end;
 }
 
 
-.big {
-    font-size: 2em;
-}
+
 
 .flex-item {
     background: #8BEE86;
