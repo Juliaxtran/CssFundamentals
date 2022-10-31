@@ -12,12 +12,25 @@
   flex-direction: column;
 }
 
-
 .card-img {
-  width: 100%;
   object-fit: cover;
-  height: 150px
+  flex-basis: 200px;
+  background-color: yellow;
+  min-width: 0;
+  min-height: 0;
 }
+
+@media screen and (min-width: 600px) {
+  .card {
+    flex-direction: row;
+  }
+
+  .card-img {
+    width: 300px;
+  }
+}
+
+
 
 .card-content {
   padding: 1em;
