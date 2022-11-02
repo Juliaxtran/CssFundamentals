@@ -9,3 +9,23 @@ body {
   color: #404040;
   line-height: 1.6em;
 }
+
+h1, h2, strong {
+  font-weight: 700;
+}
+
+/* =========
+Hero Area
+==============*/
+
+.hero {
+  display: grid;
+  background-image: url(/bg.jpg);
+  background-size: cover;
+  color: #fff;
+  grid-template-columns: minmax(1em, 1fr) minmax(0px, 500px) minmax(1em, 1fr);
+}
+
+.hero > * {
+  grid-column: 2 / -2
+}
