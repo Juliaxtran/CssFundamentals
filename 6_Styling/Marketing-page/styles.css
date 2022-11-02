@@ -86,10 +86,20 @@ strong {
 
 .logo-link {
     background-color:#ffe600;
-    padding-top: 2em;
     text-decoration: none;
+    position: absolute;
+
 }
 
+.nav {
+    position: fixed;
+    background: #000;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
 .logo {
   color: black
 }
@@ -99,13 +109,25 @@ strong {
     list-style: none;
     margin: 0;
     padding: 0;
+    border: 2px solid magenta;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
 
 }
 
 .nav-link {
     color: white;
+    text-decoration: none;
+    font-size: 3em;
+    font-weight: 700;
 }
 
+.nav-link:hover,
+.nav-link:focus {
+    color: #FFE600;
+}
 
 
 /* ==================
