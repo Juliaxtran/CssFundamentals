@@ -79,6 +79,8 @@ strong {
     background: black
 }
 
+
+
 .header-content{
     display: flex;
     grid-column: 2/-2;
@@ -156,6 +158,30 @@ strong {
   color: #ffe600;
 }
 
+@media(min-width: 600px) {
+  .open-nav,
+  .close-nav {
+    display: none;
+  }
+
+  .nav {
+    position: initial;
+  }
+
+  .nav-list {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .nav-item {
+    margin-left: 2em;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+
+  }
+}
 
 /* ==================
     hero area
