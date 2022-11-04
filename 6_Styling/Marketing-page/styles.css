@@ -90,16 +90,7 @@ strong {
 
 }
 
-.close-nav {
-  border: none;
-  background: 0;
-  color: #ffe600;
-  font-weight: 700;
-  font-size: 3rem;
-  cursor: pointer;
-  padding: .5em;
-  position: absolute;
-}
+
 
 .nav {
     position: fixed;
@@ -109,7 +100,8 @@ strong {
     right: 0;
     bottom: 0;
     left:100%;
-    transform: translateX(0)
+    transform: translateX(0);
+    transition: transform 250ms;
 }
 
 .navigation-open {
@@ -141,6 +133,27 @@ strong {
 .nav-link:hover,
 .nav-link:focus {
     color: #FFE600;
+}
+
+.close-nav {
+  border: none;
+  background: 0;
+  color: #ffe600;
+  font-weight: 700;
+  font-size: 3rem;
+  cursor: pointer;
+  padding: .5em;
+  position: absolute;
+}
+
+.open-nav {
+  border: 0;
+  background: 0;
+  cursor: pointer;
+  padding: .5em;
+  margin-left: auto;
+  font-size: 1.5em;
+  color: #ffe600;
 }
 
 
