@@ -11,6 +11,9 @@ body {
 
 }
 
+img {
+width: 100%;
+}
 /* ==================
     Typography
 ===================== */
@@ -31,10 +34,33 @@ strong {
   margin-bottom: 0;
 }
 
+.page-title,
+.subtitle {
+  grid-column: 2/-2;
+  color: black;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 3rem;
+  margin-bottom: 0;
+
+}
+
+.subtitle {
+  font-size: 1.125rem;
+  margin: .5em 0 3em;
+
+}
+
 .section-title {
   font-size: 1.125rem;
   color: #000;
   margin-top: 1.25em;
+}
+
+.section-title:first-child {
+  margin-top: 0;
 }
 
 .footer-title {
@@ -293,4 +319,24 @@ strong {
       }
   }
 
-  /* coMMENTS */
+/* =============
+ template page
+===============*/
+
+.main-template {
+  padding: 4em 0;
+}
+
+.main-template > * {
+  grid-column: 2 / -2;
+}
+
+@media (min-width: 600px) {
+  .main-image {
+      grid-column: 2;
+  }
+
+  .main-text {
+      grid-column: 3 / span 2;
+  }
+}
