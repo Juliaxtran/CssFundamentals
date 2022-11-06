@@ -34,6 +34,11 @@ strong {
   margin-bottom: 0;
 }
 
+.hero-subtitle {
+  color: white;
+  size: 1.25rem;
+}
+
 .page-title,
 .subtitle {
   grid-column: 2/-2;
@@ -64,9 +69,7 @@ strong {
 
 }
 
-.subtitle-main {
-  color: white;
-}
+
 
 .section-title {
   font-size: 1.125rem;
@@ -102,12 +105,18 @@ strong {
   font-weight: 700;
   margin-top: 0.5em;
   border: 0;
+  cursor: pointer;
 }
 
 .btn-primary {
   background: #ffe600;
   color: #000;
   justify-self: start;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background: #ffc400;
 }
 
 .btn-form {
@@ -216,6 +225,9 @@ strong {
   margin-left: auto;
   font-size: 1.5em;
   color: #ffe600;
+}
+.current {
+  border-bottom : 1px solid #ffe600;
 }
 
 @media(min-width: 600px) {
