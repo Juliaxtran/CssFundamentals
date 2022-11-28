@@ -13,3 +13,14 @@ The following is a simple blog layout with mobile and desktop layouts.
 !["simple blog desktop'](https://github.com/Juliaxtran/CssFundamentals/blob/main/readme/living-desktop.png?raw=true)
 ### Mobile Layout
 !["simple blog mobile'](https://github.com/Juliaxtran/CssFundamentals/blob/main/readme/living-mobile.png)
+
+## BBQ splash page
+A beautiful and responsive landing page for rib restaurant.
+![](https://github.com/Juliaxtran/CssFundamentals/blob/main/readme/bbqmaster.gif)
+
+## Marketing agency website
+A marketing agency website with mobile and desktop layouts. 
+## Desktop Layout
+![]()(https://github.com/Juliaxtran/CssFundamentals/blob/main/readme/marketing-page-desktop.gif)
+## Mobile Layout
+![]()(https://github.com/Juliaxtran/CssFundamentals/blob/main/readme/marketing-mobile.gif)
