@@ -21,6 +21,6 @@ A beautiful and responsive landing page for rib restaurant.
 ## Marketing agency website
 A marketing agency website with mobile and desktop layouts. 
 ## Desktop Layout
-![]()(https://github.com/Juliaxtran/CssFundamentals/blob/main/readme/marketing-page-desktop.gif)
+![](https://github.com/Juliaxtran/CssFundamentals/blob/main/readme/marketing-page-desktop.gif)
 ## Mobile Layout
-![]()(https://github.com/Juliaxtran/CssFundamentals/blob/main/readme/marketing-mobile.gif)
+![](https://github.com/Juliaxtran/CssFundamentals/blob/main/readme/marketing-mobile.gif)
